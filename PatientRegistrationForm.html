@@ -1,0 +1,83 @@
+﻿<html>
+<head>
+<title>PATIENT REGISTRATION FORM</title>
+<style>
+body
+{
+text-align:center;
+}
+</style>
+</head>
+<body>
+<h1>PATIENT REGISTRATION FORM</h1>
+Enter Your Name:
+<input type='text' name='name' />
+<br/>
+<br/>
+Enter Your Father name:
+<input type='text'name='father_name'/>
+<br/><br/>
+Enter Your Mother name:
+<input type='text'name='mother_name'/>
+<br/><br/>
+Select Your Gender:
+<input type='radio'name='g' value='male'/>Male
+<input type='radio'name='g' value='female'/>Female
+<br/><br/>
+Enter Your Number:
+<input type='number' name='number' />
+<br/><br/>
+Enter Your Email:
+<input type='email' name='email' />
+<br/><br/>
+Enter Your DOB:
+<input type='date' name='dob' />
+<br/><br/>
+Select your Marital Status:
+<select name='marital_status'>
+<option value=''>--select--</option>
+<option>Unmarried</option>
+<option>Married</option>
+<option>Divorced</option>
+<option>Widow</option>
+</select>
+<br/><br/>
+Select Patient Blood Group:
+<input type='radio'name='b' value='O'/>O+
+<input type='radio'name='b' value='A'/>A+
+<input type='radio'name='b' value='B'/>B+
+<input type='radio'name='b' value='AB'/>AB+
+<input type='radio'name='b' value='O'/>O-
+<input type='radio'name='b' value='A'/>A-
+<input type='radio'name='b' value='B'/>B-
+<input type='radio'name='b' value='AB'/>AB-
+<br/><br/>
+Enter Your Address:
+<textarea name='address' cols='16' rows='1'></textarea>
+<br/><br/>
+Enter Your city:
+<input type='text' name='city'/>
+<br/><br/>
+Enter Your pincode:
+<input type='number'name='pincode'/>
+<br/><br/>
+Emergency Contact:
+<input type='number' name='emergency_contact'/>
+<br/><br/>
+Relation:
+<input type='text' name='relation'/>
+<h1>MEDICAL HISTORY</h1>
+Reason for Visit:
+<textarea name='reason' cols='16' rows='1'></textarea>
+<br/><br/>
+Current medication:
+<textarea name='medication' cols='16' rows='1'></textarea>
+<br/><br/>
+Upload Reports:
+<input type='file' />
+<br/><br/>
+<input type='submit' >
+<input type='reset'>
+<input type='button' value='Print' onclick='print()' />
+</body>
+</html>
